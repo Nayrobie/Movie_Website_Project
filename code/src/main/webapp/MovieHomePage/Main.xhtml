@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+<link href='https://fonts.googleapis.com/css?family=Chakra Petch' rel='stylesheet'/>    
+    <h:head>
+        <h:form>
+            
+        </h:form>
+    </h:head>
+    
+     <style> 
+    body {
+       background-image: url(https://pictshare.net/5ronye.png);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+    }
+    </style> 
+    
+    <h:body>
+        <!--h:outputLabel style="font-size: 30px" value="Welcome to WoW"/-->
+        <br/>
+        <br/>
+        <h:form>
+            <h:panelGrid columns="1">
+                <h:graphicImage url="https://media.giphy.com/media/S1Ouxl568oETqM7IFT/giphy.gif"
+                                    height="250px" width="250px"
+                                    style="position: fixed; top:160px; left: 800px;"/>
+                <h:link value="New Account" 
+                        outcome="CreateUser.xhtml?faces-redirect=true" 
+                        style="
+                        color:#B3C2F2;
+                        position:fixed;left:550px;top:390px;
+                        font-size:36px;font-family:Chakra Petch;
+                        text-decoration: none
+                        "/>
+                <h:link value="Login" 
+                        outcome="LoginPage.xhtml?faces-redirect=true" 
+                        style="
+                        color:#B3C2F2;
+                        position:fixed;left:550px;top:465px;
+                        font-size:36px;font-family:Chakra Petch;
+                        text-decoration: none
+                        "/>
+                <h:link value="Movie Catalogue" 
+                        outcome="MovieCatalogue.xhtml?faces-redirect=true" 
+                        style="
+                        color:#B3C2F2;
+                        position:fixed;left:550px;top:540px;
+                        font-size:36px;font-family:Chakra Petch;
+                        text-decoration: none
+                        "/>
+            </h:panelGrid>
+        </h:form>
+    </h:body>
+</html>

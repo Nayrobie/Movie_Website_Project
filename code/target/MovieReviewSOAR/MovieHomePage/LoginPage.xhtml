@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+<link href='https://fonts.googleapis.com/css?family=Chakra Petch' rel='stylesheet'/>    
+    <h:head>
+        <h:form>
+            
+        </h:form>
+    </h:head>
+    
+    <style>
+    body {
+       background-image: url(https://pictshare.net/8c2a3r.png);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+    }
+    </style> 
+    
+    <h:body>
+        <h:form>
+            <h:panelGrid columns="2">
+                <h:graphicImage url="https://media.giphy.com/media/S1Ouxl568oETqM7IFT/giphy.gif"
+                                    height="250px" width="250px"
+                                    style="position: fixed; top:230px; left: 600px;"/>
+                <h:outputText value="Username:" 
+                              style="
+                              color:#B3C2F2;
+                              position:fixed;left:480px;top:540px;
+                              font-size:36px;font-family:Chakra Petch
+                              "/>
+                <h:inputText value="#{loginBean.username}" 
+                             style="
+                             position:fixed;left:680px;top:550px;
+                             width:260px;
+                             font-size:20px
+                             "/>
+                <h:outputText value="Password:" 
+                              style="
+                              color:#B3C2F2;
+                              position:fixed;left:480px;top:640px;
+                              font-size:36px;font-family:Chakra Petch
+                              "/>
+                <h:inputSecret value="#{loginBean.password}" 
+                               style="
+                               position:fixed;left:680px;top:650px;
+                               width:260px;
+                               font-size:20px 
+                               "/>
+                <br/>
+                <h:commandButton value="Login" action="#{loginBean.userLogsIn()}" 
+                                 style="
+                                 color:#B3C2F2;
+                                 position:fixed;left:610px;top:65px;
+                                 font-size:36px;font-family:Chakra Petch;
+                                 background-color:transparent;
+                                 border:none
+                                 "/>
+                <br/>
+                <h:commandButton value="Menu" action="/MovieHomePage/Main.xhtml?faces-redirect=true" 
+                                 style="
+                                 color:#B3C2F2;
+                                 position:fixed;left:735px;top:65px;
+                                 font-size:36px;font-family:Chakra Petch;
+                                 background-color:transparent;
+                                 border:none
+                                 "/>
+            </h:panelGrid>
+        </h:form>
+    </h:body>
+</html>

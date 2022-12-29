@@ -1,0 +1,11 @@
+com/mycompany/soar_movie_review/resources/JavaEE8Resource.class
+com/mycompany/soar_movie_review/beans/MoviesBean.class
+com/mycompany/soar_movie_review/exceptions/DoesNotExistException.class
+com/mycompany/soar_movie_review/database/MovieRecommendation.class
+com/mycompany/soar_movie_review/resources/JAXRSConfiguration.class
+com/mycompany/soar_movie_review/beans/ChartView.class
+com/mycompany/soar_movie_review/beans/UserBean.class
+com/mycompany/soar_movie_review/models/Movies.class
+com/mycompany/soar_movie_review/beans/LoginBean.class
+com/mycompany/soar_movie_review/models/Users.class
+com/mycompany/soar_movie_review/exceptions/AlreadyExistsException.class

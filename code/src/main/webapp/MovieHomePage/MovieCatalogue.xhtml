@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<link href='https://fonts.googleapis.com/css?family=Chakra Petch' rel='stylesheet'/>    
+
+    <h:head>
+        <h:form>
+            <h:outputText value="Movie Catalogue" 
+                  style="
+                  color:#B3C2F2;
+                  font-size: 30px;font-family:Chakra Petch;
+                  position:fixed;
+                  background-color: #735CDD;
+                  width: 1920px;
+                  text-align: left;
+                  border:none;
+                  padding: 10px 10px;
+                  "/>
+            <h:commandButton value="Menu" 
+                     action="/MovieHomePage/Main.xhtml?faces-redirect=true"
+                     style="
+                     color:#B3C2F2;
+                     font-size: 30px;font-family:Chakra Petch;
+                     position:fixed;
+                     background-color: transparent;
+                     left:1320px; top:15px;
+                     "/>
+        </h:form>
+    </h:head>
+    
+    <style> 
+    body {
+       background-image: url(https://pictshare.net/x156qs.png);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+        }
+    </style> 
+
+    <h:body
+        style="
+        color:#B3C2F2;
+        font-size:30px;font-family:Chakra Petch
+        ">
+        <h:form>
+            <br/>
+            <ui:repeat value="#{moviesBean.movies}" var="item">
+                <br/>
+                <h:panelGrid id="panel" columns="2" border="0" style="margin: 10px auto; background-color:rgba(0,0,0, 0.35)" >
+                    <f:facet name ="header">
+                        <h:outputText value="#{item.moviesTitle}"
+                                      style="font-size: 35px;"/>
+                    </f:facet>
+                    <h:outputText value="Genre:" 
+                                  style="grid-column: 1;"/>
+                    <h:outputText value="#{item.moviesGenre}" 
+                                  style="color:#735CDD;
+                                  grid-column: 2;"/>
+                    <h:outputText value="Rating:" 
+                                  style="grid-column: 1;"/>
+                    <h:outputText value="#{item.moviesRating}" 
+                                  style="color:#735CDD;
+                                  grid-column: 2;"/>
+                    <h:outputText value="Review:" 
+                                  style="grid-column: 1;"/>
+                    <h:outputText value="#{item.moviesReview}" 
+                                  style="color:#735CDD;
+                                  grid-column: 2;"/>
+                    <h:outputText value="Synopsis:" 
+                                  style="grid-column: 1;"/>
+                    <h:outputText value="#{item.moviesSynopsis}" 
+                                  style="color:#735CDD;
+                                  grid-column: 2;"/>
+                    <h:outputText value="Time:" 
+                                  style="grid-column: 1;"/>
+                    <h:outputText value="#{item.moviesTime}" 
+                                  style="color:#735CDD;
+                                  grid-column: 2;"/>
+                    <h:outputText value="Year:" 
+                                  style="grid-column: 1;"/>
+                    <h:outputText value="#{item.moviesYear}" 
+                                  style="color:#735CDD;
+                                  grid-column: 2;"/>
+                    <br/>
+                    <h:graphicImage url="#{item.moviesUrl}"
+                                    height="500px" width="800px"
+                                    style="grid-column: 3;"/>
+                </h:panelGrid>
+                <br/>
+            </ui:repeat>
+            <br/>
+        </h:form>
+    </h:body>
+</html>

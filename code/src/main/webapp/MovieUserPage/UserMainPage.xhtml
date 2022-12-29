@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        
+    </h:head>
+    
+    <h:body>
+        <h:form>
+            <h:panelGrid columns="1">
+                <h:commandButton value="Log out" action="#{loginBean.userLogsout()}"/>
+                <h:link value="See Movies and add to your Favourite List" outcome="SeeMovieCatalogue.xhtml?faces-redirect=true" />
+                <h:link value="Remove a Movie from the Favourite List" outcome="RemoveMovies.xhtml?faces-redirect=true" />
+                <h:link value="See my Favourite List" outcome="SeeFavouriteList.xhtml?faces-redirect=true" /> 
+                <h:link value="Show User Information" outcome="ShowInfo.xhtml?faces-redirect=true" />
+                <h:link value="Recommend me a movie" outcome="Recommendation.xhtml?faces-redirect=true" /> 
+            </h:panelGrid>
+        </h:form>
+    </h:body>
+</html>

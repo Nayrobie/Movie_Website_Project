@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+<link href='https://fonts.googleapis.com/css?family=Chakra Petch' rel='stylesheet'/> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>  
+
+<h:head>
+        <h:form>
+            <!-- start Side bar -->
+            <p:sidebar widgetVar="sidebar1" 
+                       style="background-color:#303030;
+                       color:#B3C2F2;
+                       font-size: 25px;font-family:Chakra Petch;
+                       width: 300px;
+                       "> <h3>WoW Menu</h3>
+                <h:graphicImage url="https://media.giphy.com/media/S1Ouxl568oETqM7IFT/giphy.gif"
+                                    height="80px" width="80px"
+                                    style="position: fixed; top:25px; left:160px;"/>
+                <h:commandButton value="Catalogue" 
+                     action="/MovieUserPage/SeeMovieCatalogue.xhtml?faces-redirect=true"
+                     style="
+                     color:#B3C2F2;
+                     font-size: 20px;font-family:Chakra Petch;
+                     position:fixed; top:100px;
+                     background-color: transparent;
+                     border: none;
+                     "/>
+                <h:commandButton value="Favourite List" 
+                     action="/MovieUserPage/SeeFavouriteList.xhtml?faces-redirect=true"
+                     style="
+                     color:#B3C2F2;
+                     font-size: 20px;font-family:Chakra Petch;
+                     position:fixed; top:150px;
+                     background-color: transparent;
+                     border: none;
+                     "/>
+                <h:commandButton value="User Info" 
+                     action="/MovieUserPage/ShowInfo.xhtml?faces-redirect=true"
+                     style="
+                     color:#B3C2F2;
+                     font-size: 20px;font-family:Chakra Petch;
+                     position:fixed; top:200px;
+                     background-color: transparent;
+                     border: none;
+                     "/>
+                <h:commandButton value="Recommendation" 
+                     action="/MovieUserPage/Recommendation.xhtml?faces-redirect=true"
+                     style="
+                     color:#B3C2F2;
+                     font-size: 20px;font-family:Chakra Petch;
+                     position:fixed; top:250px;
+                     background-color: transparent;
+                     border: none;
+                     "/>
+                <h:commandButton value="Log Out" 
+                     action="#{loginBean.userLogsout()}"
+                     style="
+                     color:#B3C2F2;
+                     font-size: 20px;font-family:Chakra Petch;
+                     position:fixed; top:300px;
+                     background-color: transparent;
+                     border: none;
+                     "/>
+            </p:sidebar>
+            
+            <p:commandButton icon="pi pi-arrow-left" type="button" onclick="PF('sidebar1').show()" styleClass="mr-2"
+                             style="background-color:#735CDD;
+                             border-color:#735CDD; 
+                             position:fixed;
+                             "/>
+            <!-- end Side bar -->
+            <h:outputText value="WoW Movie Recommendation" 
+                  style="
+                  color:#B3C2F2;
+                  font-size: 20px;font-family:Chakra Petch;
+                  position:fixed;
+                  background-color: #735CDD;
+                  width: 1920px;
+                  text-align: left;
+                  border:none;
+                  padding: 5px 10px;
+                  left: 50px; top: 8px;
+                  "/>
+        </h:form>
+    </h:head>
+
+<!-- 
+<style>
+            div {
+  /* animation properties */
+  animation-name: my-animation;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  
+  /* other properties */
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto;
+  margin-right: auto; 
+
+}
+
+@keyframes my-animation {
+  from {
+    background-color: #B3C2F2;
+    width: 300px;
+    top: 10px;
+  }
+  to {
+    background-color: #9000B3;
+    width: 50px;
+    top: 100px;
+  }
+}
+-->
+<style>
+body {
+       background-image: url(https://pictshare.net/0zdcna.png);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+        }
+</style>
+    
+    <h:body>
+        <h:form>
+                <h:graphicImage url="https://media.giphy.com/media/rKfbZmzsi5GNpfueDo/giphy.gif"
+                                height="70px" width="50px"
+                                style="
+                                position: fixed; top:470px; left:400px;"/>
+                <h:commandButton value="Drama" action="#{moviesBean.getMovieRecommendationDrama}"
+                                 style="font-size: 40px;
+                              font-variant-caps: small-caps;
+                              color:#B3C2F2;
+                              font-family:Chakra Petch;
+                              background-color: transparent; border:none;
+                              position: fixed; top:220px; left:420px;
+                              "/>
+                <h:commandButton value="Comedy" action="#{moviesBean.getMovieRecommendationComedy}"
+                                 style="font-size: 40px;
+                              font-variant-caps: small-caps;
+                              color:#B3C2F2;
+                              font-family:Chakra Petch;
+                              background-color: transparent; border:none;
+                              position: fixed; top:220px; left:650px;
+                              "/>
+                <h:commandButton value="Action" action="#{moviesBean.getMovieRecommendationAction}"
+                                 style="font-size: 40px;
+                              font-variant-caps: small-caps;
+                              color:#B3C2F2;
+                              font-family:Chakra Petch;
+                              background-color: transparent; border:none;
+                              position: fixed; top:220px; left:905px;
+                              "/>  
+                <br/>
+                <h:outputText value="#{moviesBean.moviesTitle}" 
+                               style="font-size: 60px;
+                              font-variant-caps: small-caps;
+                              color:#ffffff;
+                              font-family:Chakra Petch;
+                              background-color: transparent;
+                              border: none;
+                              position: fixed; top:470px; left:480px;
+                              "/>
+                <br/>
+        </h:form>
+    </h:body>
+</html>
+

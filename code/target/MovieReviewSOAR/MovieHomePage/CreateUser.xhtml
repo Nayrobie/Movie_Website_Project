@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+<link href='https://fonts.googleapis.com/css?family=Chakra Petch' rel='stylesheet'/>    
+     <h:head>
+         <h:form>
+             
+         </h:form>
+    </h:head>
+
+    <style> 
+    body {
+       background-image: url(https://pictshare.net/hmfcjk.png);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+    }
+    </style> 
+    
+    <h:body>
+        <h:form>
+            <h:panelGrid columns="2">
+                <h:outputText value="Username"
+                              style="
+                              color:#B3C2F2;
+                              position:fixed;left:530px;top:370px;
+                              font-size:36px;font-family:Chakra Petch;
+                              "/>
+                <h:inputText value="#{userBean.username}" 
+                             style="
+                             position:fixed;left:725px;top:380px;
+                             width:260px;
+                             font-size:20px
+                             "/>
+                <h:outputText value="Email"
+                              style="
+                              color:#B3C2F2;
+                              position:fixed;left:530px;top:450px;
+                              font-size:36px;font-family:Chakra Petch
+                              "/>
+                <h:inputText value="#{userBean.email}" 
+                             style="
+                             position:fixed;left:725px;top:460px;
+                             width:260px;
+                             font-size:20px;
+                             "/>
+                <h:outputText value="Password"
+                              style="
+                              color:#B3C2F2;
+                              position:fixed;left:530px;top:525px;
+                              font-size:36px;font-family:Chakra Petch;
+                              "/>
+                <h:inputSecret value="#{userBean.password}" 
+                               style="
+                               position:fixed;left:725px;top:535px;
+                               width:260px;
+                               font-size:20px
+                               "/>
+                <br/>
+                <h:commandButton value="Sign In" action="#{userBean.createAUser()}"
+                                 style="
+                                 color:#B3C2F2;
+                                 position:fixed;left:603px;top:675px;
+                                 font-size:36px;font-family:Chakra Petch;
+                                 background-color:transparent;
+                                 border:none
+                                 "/>
+                <br/>
+                <h:commandButton value="Menu" action="/MovieHomePage/Main.xhtml?faces-redirect=true"
+                                 style="
+                                 color:#B3C2F2;
+                                 position:fixed;left:736px;top:675px;
+                                 font-size:36px;font-family:Chakra Petch;
+                                 background-color:transparent;
+                                 border:none
+                                 "/>
+            </h:panelGrid>
+        </h:form>
+    </h:body>
+</html>

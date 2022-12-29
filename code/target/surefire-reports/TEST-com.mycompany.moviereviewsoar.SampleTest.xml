@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.moviereviewsoar.SampleTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="netbeans.deploy" value="true"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/yonahbole/Github_repositories/NetBeans_Movie_Website_Project/code/target/test-classes:/Users/yonahbole/Github_repositories/NetBeans_Movie_Website_Project/code/target/classes:/Users/yonahbole/.m2/repository/org/primefaces/primefaces/12.0.0/primefaces-12.0.0.jar:/Users/yonahbole/.m2/repository/jakarta/platform/jakarta.jakartaee-api/8.0.0/jakarta.jakartaee-api-8.0.0.jar:/Users/yonahbole/.m2/repository/javax/enterprise/cdi-api/2.0/cdi-api-2.0.jar:/Users/yonahbole/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:/Users/yonahbole/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar:/Users/yonahbole/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/yonahbole/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar:/Users/yonahbole/.m2/repository/javax/json/bind/javax.json.bind-api/1.0/javax.json.bind-api-1.0.jar:/Users/yonahbole/.m2/repository/javax/json/javax.json-api/1.1/javax.json-api-1.1.jar:/Users/yonahbole/.m2/repository/javax/annotation/javax.annotation-api/1.3/javax.annotation-api-1.3.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/config/microprofile-config-api/1.3/microprofile-config-api-1.3.jar:/Users/yonahbole/.m2/repository/org/osgi/org.osgi.annotation.versioning/1.0.0/org.osgi.annotation.versioning-1.0.0.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/fault-tolerance/microprofile-fault-tolerance-api/2.0/microprofile-fault-tolerance-api-2.0.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/health/microprofile-health-api/2.0/microprofile-health-api-2.0.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/metrics/microprofile-metrics-api/2.0.0/microprofile-metrics-api-2.0.0.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/jwt/microprofile-jwt-auth-api/1.1/microprofile-jwt-auth-api-1.1.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/openapi/microprofile-openapi-api/1.1/microprofile-openapi-api-1.1.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/rest/client/microprofile-rest-client-api/1.3/microprofile-rest-client-api-1.3.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/opentracing/microprofile-opentracing-api/1.3/microprofile-opentracing-api-1.3.jar:/Users/yonahbole/.m2/repository/org/junit/jupiter/junit-jupiter/5.5.0/junit-jupiter-5.5.0.jar:/Users/yonahbole/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.jar:/Users/yonahbole/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/yonahbole/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/yonahbole/.m2/repository/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.jar:/Users/yonahbole/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.0/junit-jupiter-params-5.5.0.jar:/Users/yonahbole/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.0/junit-jupiter-engine-5.5.0.jar:/Users/yonahbole/.m2/repository/org/junit/platform/junit-platform-engine/1.5.0/junit-platform-engine-1.5.0.jar:/Users/yonahbole/.m2/repository/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar:/Users/yonahbole/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/yonahbole/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/yonahbole/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="exec.appArgs" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/yonahbole/Github_repositories/NetBeans_Movie_Website_Project/code/target/surefire/surefirebooter8049665295376146481.jar /Users/yonahbole/Github_repositories/NetBeans_Movie_Website_Project/code/target/surefire 2022-12-29T12-44-38_023-jvmRun1 surefire5865616717216679331tmp surefire_05873568299940248532tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/yonahbole/Github_repositories/NetBeans_Movie_Website_Project/code/target/test-classes:/Users/yonahbole/Github_repositories/NetBeans_Movie_Website_Project/code/target/classes:/Users/yonahbole/.m2/repository/org/primefaces/primefaces/12.0.0/primefaces-12.0.0.jar:/Users/yonahbole/.m2/repository/jakarta/platform/jakarta.jakartaee-api/8.0.0/jakarta.jakartaee-api-8.0.0.jar:/Users/yonahbole/.m2/repository/javax/enterprise/cdi-api/2.0/cdi-api-2.0.jar:/Users/yonahbole/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:/Users/yonahbole/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar:/Users/yonahbole/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/yonahbole/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar:/Users/yonahbole/.m2/repository/javax/json/bind/javax.json.bind-api/1.0/javax.json.bind-api-1.0.jar:/Users/yonahbole/.m2/repository/javax/json/javax.json-api/1.1/javax.json-api-1.1.jar:/Users/yonahbole/.m2/repository/javax/annotation/javax.annotation-api/1.3/javax.annotation-api-1.3.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/config/microprofile-config-api/1.3/microprofile-config-api-1.3.jar:/Users/yonahbole/.m2/repository/org/osgi/org.osgi.annotation.versioning/1.0.0/org.osgi.annotation.versioning-1.0.0.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/fault-tolerance/microprofile-fault-tolerance-api/2.0/microprofile-fault-tolerance-api-2.0.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/health/microprofile-health-api/2.0/microprofile-health-api-2.0.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/metrics/microprofile-metrics-api/2.0.0/microprofile-metrics-api-2.0.0.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/jwt/microprofile-jwt-auth-api/1.1/microprofile-jwt-auth-api-1.1.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/openapi/microprofile-openapi-api/1.1/microprofile-openapi-api-1.1.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/rest/client/microprofile-rest-client-api/1.3/microprofile-rest-client-api-1.3.jar:/Users/yonahbole/.m2/repository/org/eclipse/microprofile/opentracing/microprofile-opentracing-api/1.3/microprofile-opentracing-api-1.3.jar:/Users/yonahbole/.m2/repository/org/junit/jupiter/junit-jupiter/5.5.0/junit-jupiter-5.5.0.jar:/Users/yonahbole/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.jar:/Users/yonahbole/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/yonahbole/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/yonahbole/.m2/repository/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.jar:/Users/yonahbole/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.0/junit-jupiter-params-5.5.0.jar:/Users/yonahbole/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.0/junit-jupiter-engine-5.5.0.jar:/Users/yonahbole/.m2/repository/org/junit/platform/junit-platform-engine/1.5.0/junit-platform-engine-1.5.0.jar:/Users/yonahbole/.m2/repository/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar:/Users/yonahbole/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/yonahbole/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/yonahbole/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:"/>
+    <property name="exec.vmArgs" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/yonahbole"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/yonahbole/Github_repositories/NetBeans_Movie_Website_Project/code"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/yonahbole/Github_repositories/NetBeans_Movie_Website_Project/code/target/surefire/surefirebooter8049665295376146481.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="yonahbole"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="/Applications/NetBeans/Apache NetBeans 12.4.app/Contents/Resources/NetBeans/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/Users/yonahbole/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/7k/_kmqftt90vs79x45ns72k98m0000gn/T/"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="user.dir" value="/Users/yonahbole/Github_repositories/NetBeans_Movie_Website_Project/code"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/yonahbole/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.ext.dirs" value="/Users/yonahbole/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="simpleJUnit5Test" classname="com.mycompany.moviereviewsoar.SampleTest" time="0.014"/>
+</testsuite>
