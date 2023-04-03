@@ -1,9 +1,6 @@
 # Full Stack Application Web Development
 
-
-![image](https://res.craft.do/user/full/7a93547b-a2a3-6209-a5e3-1a49258c4f73/doc/F46398B9-8488-4691-8493-F227BE2C8E54/5EEA04A7-090E-4C93-B4AF-644BA1AC19E3_2/QiulvrW0KnLStrlMm96EapsIXoNfsxUFxJgiDXI8YaYz/Web-Design-Basics-with-HTML-CSS-and-JAVA-1024x768.jpeg)
-
-image from bitwiseacademy
+https://user-images.githubusercontent.com/80701265/229527449-74deeaf2-a0eb-43a3-a484-16832bf76829.mp4
 
 ## 🚀 What is it about?
 
