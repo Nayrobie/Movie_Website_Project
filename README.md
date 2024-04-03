@@ -42,7 +42,7 @@ The third phase was creating the MySQL database with a connection pool so that e
 	- `JavaScript`
 	- `HTML 5`
 	- `CSS`
-	- `MySQL`
+	- `SQL`
 
 ## Contributors
 
